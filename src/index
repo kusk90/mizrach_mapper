@@ -1,0 +1,15 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+* { box-sizing: border-box; }
+.panel {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.row { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
+.input { padding: .6rem .8rem; border: 1px solid #ccc; border-radius: 12px; flex: 1; min-width: 260px; }
+.btn { padding: .6rem .9rem; border-radius: 12px; border: 1px solid #000; background: #000; color: #fff; cursor: pointer; }
+.btn.alt { background: #fff; color: #000; }
+.note { color: #666; font-size: .85rem; }
